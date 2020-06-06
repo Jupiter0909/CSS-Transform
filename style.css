@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+  transform: translate(500px, 20%);
+  /* transform:translateX() translateY() translateZ()*/
+  transform: rotate(0.5turn);
+  transform: rotate(180deg);
+  /* Degrees and decimals */
+  transform: scale(2, 0.5);
+  /* Only decimals and integers as values */
+  transform: scale(2, 0.5) translate(-13%);
+}
